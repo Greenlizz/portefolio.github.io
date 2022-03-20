@@ -1,0 +1,103 @@
+body{
+    background-color:white;
+
+}
+
+.wrap{
+	background-color: #93b299;
+	width:960px;
+	margin:auto;
+    padding:20px;
+}
+
+h2 a{
+    color: #F5F5F5;
+    font-family: "Cabin", sans-serif;
+    
+}
+h1{
+    background-color: azure;
+}
+h1,h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bloc_flyers{
+    background-color: aliceblue;
+    display:flex;
+    padding:30px;
+    border-radius: 30px;
+    gap:60px;
+    justify-content: center;
+    position:relative;
+}
+.loupe_zoom{
+    position: absolute;
+    margin-top:-420px; 
+    margin-left: 150px;
+    display: none;
+    
+}
+img[alt="loupe"]{
+    width:50px;
+   
+}
+img{
+    width: 350px; 
+}
+div >a:hover {
+    filter: brightness(80%);
+    transition: all 0.3s linear;
+    
+}
+
+div a:hover  .loupe_zoom{
+    display: block;
+}
+
+.cercle1{
+    width:50px;
+    height: 50px;
+    background-color: #c4c4c4 ;
+    border-radius: 100px;
+    
+}
+.cercle2{
+    width:50px;
+    height: 50px;
+    background-color:black;
+    border-radius: 100px;
+    
+}
+.cercle3{
+    width:50px;
+    height: 50px;
+    background-color:#e0dcdc ;
+    border-radius: 100px;
+    
+}
+.cercle4{
+    width:50px;
+    height: 50px;
+    background-color:#676565;
+    border-radius: 100px;
+    
+}
+.cercles{
+    display:flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
